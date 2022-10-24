@@ -1,0 +1,30 @@
+html{
+    color: #0A0A0A;
+}
+
+/* Nav Bar */
+
+nav{
+    background-color: #0A0A0A;
+}
+
+ul{
+    color: #FFFFFF;
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* Nav Bar Animation */
+.navbar{
+    transition: .1s background-color ease-in;
+}
+
+.navbar:hover{
+    background-color: #08EDF9;
+    color: #0A0A0A;
+    border-radius: 50px;
+}
