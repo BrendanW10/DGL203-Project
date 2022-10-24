@@ -5,6 +5,31 @@ body{
     margin: 0 auto;
 }
 
+/* Button */
+button{
+    justify-content: center;
+    align-items: center;
+    color: #08EDF9;
+    background-color: #0A0A0a;
+    border-radius: 50px;
+    padding: 20px;
+    border: #08EDF9;
+    border-style: solid;
+    transition: .1s background-color ease-in,
+                .1s transform ease-in-out;
+}
+button:hover{
+    color: #FFFFFF;
+    background-color: #08EDF9;
+    border-radius: 50px;
+    padding: 20px;
+    border: #FFFFFF;
+    border-style: solid;
+    transform: scale(1.09);
+}
+
+
+
 /* Nav Bar */
 
 nav{
@@ -40,3 +65,46 @@ li{
     color: #0A0A0A;
     border-radius: 50px;
 }
+
+/* Header */
+#home{
+    background-image: url(../DGL203-Project/Images/me.png);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    
+}
+.container{
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 100px;
+}
+.headertext{
+    color: white;
+    margin: 0;
+    font-size: 100px;
+    
+}
+#home h2{
+    color: white;
+}
+#home h3{
+    color: white;
+}
+.smalllogo{
+    position: relative;
+    top: 23px;
+    left: 5px;
+}
+
+/* About Me */
+.inner-container2{
+    
+    padding: 50px;
+    width: 800px;
+}
+
+
