@@ -1,0 +1,29 @@
+.jumbotron{
+    background-image: url(../DGL203-Project/Header/me.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#home{
+    color: white;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 50px;
+}
+
+li a{
+    color: black;
+}
+li a:hover{
+    color: black;
+ }
+.navbar-img{
+    position: relative;
+    bottom: 10px;
+}
