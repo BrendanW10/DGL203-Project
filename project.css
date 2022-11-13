@@ -2,7 +2,11 @@
     background-image: url(../DGL203-Project/Header/me.png);
     background-position: center;
     background-size: cover;
+    height: 500px;
+    
 }
+
+
 
 #home{
     color: white;
