@@ -1,3 +1,14 @@
+
+/* Nav Bar */
+nav{
+    margin: 0;
+    padding: 0;
+}
+.navbar-img{
+    position: relative;
+    bottom: 10px;
+}
+/* Header */
 .jumbotron{
     background-image: url(../DGL203-Project/Header/me.png);
     background-position: center;
@@ -5,44 +16,35 @@
     height: 500px;
     
 }
-
-
-#services{
-    margin-top: 50px;
-    padding-bottom: 50px;
-    padding-top: 50px;
-    background-color: rgb(245, 245, 245);
-}
 #home{
     color: white;
 }
-#recentwork{
-    margin-top: 50px;
-    padding-bottom: 50px;
-    padding-top: 50px;
-}
-
-nav{
-    margin: 0;
-    padding: 0;
-}
-
 header{
     height: 50px;
 }
-
 li a{
     color: black;
 }
 li a:hover{
     color: black;
  }
-.navbar-img{
-    position: relative;
-    bottom: 10px;
+
+/* Services Section */
+#services{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: rgb(245, 245, 245);
 }
 
+/* Recent Work */
+#recentwork{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+/* footer */
 footer{
-    
     background-color: rgb(245, 245, 245);
 }
