@@ -9,10 +9,17 @@
 
 #services{
     margin-top: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
     background-color: rgb(245, 245, 245);
 }
 #home{
     color: white;
+}
+#recentwork{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 nav{
@@ -33,4 +40,9 @@ li a:hover{
 .navbar-img{
     position: relative;
     bottom: 10px;
+}
+
+footer{
+    
+    background-color: rgb(245, 245, 245);
 }
