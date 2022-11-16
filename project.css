@@ -17,6 +17,7 @@ nav{
     
 }
 #home{
+    
     color: white;
 }
 header{
@@ -47,4 +48,21 @@ li a:hover{
 /* footer */
 footer{
     background-color: rgb(245, 245, 245);
+}
+
+
+/* Portfolio Page*/
+
+/* Header */
+
+.centertext{
+    position: relative;
+    top: 150px;
+}
+#portfolio{
+    background-image: url(../DGL203-Project/DesignProcess/processblack.png);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    color: white;
 }
