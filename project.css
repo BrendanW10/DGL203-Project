@@ -71,5 +71,29 @@ footer{
 }
 
 .toppadding{
-    padding-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.grey{
+    background-color: rgb(245, 245, 245);
+    
+}
+
+/* Brandings */
+
+.col-sm-6{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+hr.solid{
+    border-top: 2px solid black;
+}
+
+/* Websites screen */
+
+.space{
+    margin-top: 200px;
+    margin-bottom: 200px;
 }

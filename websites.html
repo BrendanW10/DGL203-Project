@@ -4,7 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>2fifty</title>
-    <link rel="stylesheet" href="../PersonalWebsite/stylesheet.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="project.css">
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,30 +15,47 @@
   <body>
     <header>
         <!--Nav Bary-->
-    <nav>
-        <ul>
-            <li class="navbar"><a href="index.html">Home</a></li>
-            <li class="navbar"><a href="websites.html">Websites</a></li>
-            <li><img src="../PersonalWebsite/Images/2fiftylogoblue.png" height="60px" width="60px" alt="2fifty logo"></li>
-            <li class="navbar"><a href="portfolio.html">Logos</a></li>
-            <li class="navbar"><a href="Contact.html">Contact</a></li>
-            
-        </ul>
-    </nav>
+        <div class="container">
+            <nav class="navbar">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <a class="navbar-brand navbar-img" href="#"><img src="../DGL203-Project/Images/2fiftylogoblue.png" alt="2fiftydesignslogo" height="50px" width="50px"></a>
+                </div>
+              
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="websites.html">Websites</a></li>
+                <li><a href="portfolio.html">Logos</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+            </nav>
     </header>
+    <div class="container text-center space">
         <h1>Coming Soon</h1>
         <h1>Thanks you for your patience</h1>
-    <footer id="contact">
-        <h1 class="footeralign contacttitle">Contact Me Today</h1>
-        <ul>
+    </div>
+
+
+        <div class=" my-5">
+            <footer id="contact" class="text-center text-lg-start">
+              <div class="container d-flex justify-content-center py-5">
+               <h2>Contact Now!</h2>
+               <a href="#">Brendan@2fiftydesigns.ca</a>
+              </div>
+          
+              <!-- Copyright -->
+              <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2022 Copyright:
+                <a class="text-white" href="#">2fiftyDesigns.ca</a>
+              </div>
+              <!-- Copyright -->
+            </footer>
             
-                <li><a class="footer" href="email:brendan@2fiftydesigns.com">Instagram</a></li>
-                <li><a class="footer" href="email:brendan@2fiftydesigns.com">brendan@2fiftydesigns.com</a></li>
-                <li><a class="footer" href="email:brendan@2fiftydesigns.com">Facebook</a></li>
-           
-        </ul>
-        <h5 class="footeralign">Website Designed And Made By 2fiftyDesigns.com</h5>
-    </footer>
+          </div>
+          <!-- End of .container -->
+      
 </main>
 <script src="index.js"></script>
 </body>
