@@ -1,0 +1,97 @@
+nav{
+    margin: 0;
+    padding: 0;
+}
+.navbar-img{
+    position: relative;
+    bottom: 10px;
+}
+/* Header */
+.jumbotron{
+    background-image: url(../DGL203-Project/Header/me.png);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    
+}
+#home{
+    
+    color: white;
+}
+header{
+    height: 50px;
+}
+li a{
+    color: black;
+}
+li a:hover{
+    color: black;
+ }
+
+/* Services Section */
+#services{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: rgb(245, 245, 245);
+}
+
+/* Recent Work */
+#recentwork{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+/* footer */
+footer{
+    background-color: rgb(245, 245, 245);
+}
+
+
+/* Portfolio Page*/
+
+/* Header */
+
+.centertext{
+    position: relative;
+    top: 150px;
+}
+#portfolio{
+    background-image: url(../DGL203-Project/DesignProcess/processblack.png);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    color: white;
+}
+.portfolio{
+    margin-top: 20px;
+}
+
+.toppadding{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.grey{
+    background-color: rgb(245, 245, 245);
+    
+}
+
+/* Brandings */
+
+.col-sm-6{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+hr.solid{
+    border-top: 2px solid black;
+}
+
+/* Websites screen */
+
+.space{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
